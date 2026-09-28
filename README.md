@@ -3,45 +3,45 @@ Backend E-commerce API
 A backend REST API for an e-commerce application developed with Java and Spring Boot.
 The application provides user authentication, product management, order management, and role-based access control. It uses MySQL for data persistence and JWT for authentication.
 
-Features
+Features:
 
-.User registration and authentication
+User registration and authentication
 
-.JWT-based authentication
+JWT-based authentication
 
-.Role-based access control with USER and ADMIN roles
+Role-based access control with USER and ADMIN roles
 
-.Product creation, retrieval, update, and deletion
+Product creation, retrieval, update, and deletion
 
-.Product search and pagination
+Product search and pagination
 
-.Order creation and management
+Order creation and management
 
-.MySQL database integration
+MySQL database integration
 
-.API documentation with Swagger/OpenAPI
+API documentation with Swagger/OpenAPI
 
-.Docker-based MySQL database
+Docker-based MySQL database
 
-Technologies
+Technologies:
 
-.Java 21
+Java 21
 
-.Spring Boot 3.5.6
+Spring Boot 3.5.6
 
-.Spring Security
+Spring Security
 
-.JWT
+JWT
 
-.Spring Data JPA
+Spring Data JPA
 
-.Hibernate
+Hibernate
 
-.MySQL 8
+MySQL 8
 
-.Maven
+Maven
 
-.Docker
+Docker
 
 
 
