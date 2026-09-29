@@ -1,61 +1,90 @@
-Backend E-commerce API
+# 🛒 Backend E-commerce API
 
-A backend REST API for an e-commerce application developed with Java and Spring Boot.
-The application provides user authentication, product management, order management, and role-based access control. It uses MySQL for data persistence and JWT for authentication.
+A **RESTful backend API** for an e-commerce application developed with **Java** and **Spring Boot**.
 
-Features:
+The application provides **user authentication**, **product management**, **order management**, and **role-based access control**. It uses **MySQL** for data persistence and **JWT** for authentication.
 
-User registration and authentication
+---
 
-JWT-based authentication
+## ✨ Features
 
-Role-based access control with USER and ADMIN roles
+* 👤 **User registration and authentication**
+* 🔐 **JWT-based authentication**
+* 🛡️ **Role-based access control** with `USER` and `ADMIN` roles
+* 📦 **Product management**
 
-Product creation, retrieval, update, and deletion
+  * Create products
+  * Retrieve products
+  * Update products
+  * Delete products
+* 🔎 **Product search and pagination**
+* 🛍️ **Order creation and management**
+* 🗄️ **MySQL database integration**
+* 📚 **API documentation** with Swagger / OpenAPI
+* 🐳 **Docker-based MySQL database**
 
-Product search and pagination
+---
 
-Order creation and management
+## 🛠️ Technologies
 
-MySQL database integration
+| Technology          | Version |
+| ------------------- | ------- |
+| **Java**            | 21      |
+| **Spring Boot**     | 3.5.6   |
+| **Spring Security** | —       |
+| **JWT**             | —       |
+| **Spring Data JPA** | —       |
+| **Hibernate**       | —       |
+| **MySQL**           | 8       |
+| **Maven**           | —       |
+| **Docker**          | —       |
 
-API documentation with Swagger/OpenAPI
+---
 
-Docker-based MySQL database
+## 🔐 Authentication
 
-Technologies:
+The application uses **JWT (JSON Web Token)** for authentication and **Spring Security** for securing the API.
 
-Java 21
+After successful login, the user receives a JWT token that can be used to access protected endpoints.
 
-Spring Boot 3.5.6
+```http
+Authorization: Bearer <JWT_TOKEN>
+```
 
-Spring Security
+---
 
-JWT
+## 📚 API Documentation
 
-Spring Data JPA
+The API is documented using **Swagger / OpenAPI**.
 
-Hibernate
+When the application is running, Swagger UI is available at:
 
-MySQL 8
+```text
+http://localhost:8080/swagger-ui/index.html
+```
 
-Maven
+Swagger can be used to explore and test the available API endpoints.
 
-Docker
+---
 
+## 🗄️ Database
 
-Project Status
+The application uses **MySQL 8** for data persistence.
 
-This project is a personal backend project developed to practice and demonstrate Java, Spring Boot, REST API development, database management, Docker, and Spring Security.
+The MySQL database is configured to run using **Docker**, making the development environment easier to set up and reproduce.
 
+---
 
+## 🚀 Project Status
 
+This is a **personal backend project** developed to practice and demonstrate:
 
+* **Java backend development**
+* **Spring Boot**
+* **REST API development**
+* **Spring Security and JWT authentication**
+* **Database management with MySQL**
+* **Docker**
+* **API documentation with Swagger / OpenAPI**
 
-
-
-
-
-
-
-
+The project is currently under development and may be extended with additional features in the future.
