@@ -44,7 +44,9 @@ Maven
 Docker
 
 
+Project Status
 
+This project is a personal backend project developed to practice and demonstrate Java, Spring Boot, REST API development, database management, Docker, and Spring Security.
 
 
 
